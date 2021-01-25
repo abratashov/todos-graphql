@@ -1,4 +1,6 @@
 class ApplicationSchema < GraphQL::Schema
+  include ::ErrorHandler
+
   mutation(Lib::MutationType)
   query(Lib::QueryType)
 

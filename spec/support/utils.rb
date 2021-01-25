@@ -1,3 +1,3 @@
 def print_body
-  JSON.parse(response.body)
+  ap JSON.parse(response.body)
 end
