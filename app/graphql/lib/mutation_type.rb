@@ -1,9 +1,5 @@
 module Lib
   class MutationType < Lib::Objects::Base
-    # TODO: remove me
-    field :test_field, String, null: false, description: "An example field added by the generator"
-    def test_field
-      "Hello World"
-    end
+    field :userCreate, mutation: Users::Mutations::Create
   end
 end
