@@ -1,12 +1,6 @@
 module Lib
   class QueryType < Lib::Objects::Base
-    # Add `node(id: ID!) and `nodes(ids: [ID!]!)`
-    include GraphQL::Types::Relay::HasNodeField
-    include GraphQL::Types::Relay::HasNodesField
-
-    # Add root-level fields here.
-    # They will be entry points for queries on your schema.
-
     field :user, resolver: Users::Resolvers::Show, description: 'User'
+    field :me, resolver: Users::Resolvers::Me, description: 'Current user'
   end
 end
