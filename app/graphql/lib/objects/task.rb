@@ -10,5 +10,6 @@ module Lib::Objects
     field :updated_at, Lib::Scalars::DateTime, null: false
     field :project, Lib::Objects::Project, null: false
     field :project_id, Int, null: false
+    field :comments, [Lib::Objects::Comment], null: false
   end
 end

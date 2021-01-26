@@ -18,6 +18,8 @@ require 'reform'
 require 'reform/form/dry'
 require 'reform/form/coercion'
 
+require 'support/schemas/comments/create'
+require 'support/schemas/comments/destroy'
 require 'support/schemas/projects/create'
 require 'support/schemas/projects/destroy'
 require 'support/schemas/projects/update'

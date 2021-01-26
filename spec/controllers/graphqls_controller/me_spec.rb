@@ -17,6 +17,11 @@ RSpec.describe GraphqlsController, type: :controller do
                 id
                 name
                 done
+                comments {
+                  id
+                  body
+                  attachmentUrl
+                }
               }
             }
           }
