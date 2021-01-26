@@ -8,5 +8,6 @@ module Lib::Objects
     field :created_at, Lib::Scalars::DateTime, null: false
     field :updated_at, Lib::Scalars::DateTime, null: false
     field :user, Lib::Objects::User, null: false
+    field :tasks, [Lib::Objects::Task], null: false
   end
 end
