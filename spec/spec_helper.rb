@@ -18,6 +18,7 @@ require 'reform'
 require 'reform/form/dry'
 require 'reform/form/coercion'
 
+require 'support/schemas/sessions/create'
 require 'support/schemas/users/create'
 require 'support/schemas/users/me'
 require 'support/schemas/users/show'
