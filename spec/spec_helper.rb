@@ -28,6 +28,7 @@ require 'support/schemas/tasks/create'
 require 'support/schemas/tasks/destroy'
 require 'support/schemas/tasks/update'
 require 'support/schemas/users/create'
+require 'support/schemas/users/index'
 require 'support/schemas/users/me'
 require 'support/schemas/users/show'
 

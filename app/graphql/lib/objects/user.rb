@@ -8,7 +8,7 @@ module Lib
       field :created_at, Lib::Scalars::DateTime, null: false
       field :updated_at, Lib::Scalars::DateTime, null: false
 
-      field :projects, [Objects::Project], null: false
+      field :projects, resolver: Users::Projects::Resolvers::Index
     end
   end
 end

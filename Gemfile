@@ -33,8 +33,12 @@ gem 'trailblazer-rails'
 # GraphQL server
 gem 'graphql'
 
+# Files uploading
 gem 'carrierwave', '~> 2.0'
 gem 'apollo_upload_server', '2.0.1'
+
+# Authorization
+gem 'pundit'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
