@@ -34,7 +34,7 @@ gem 'trailblazer-rails'
 gem 'graphql'
 
 # Files uploading
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 2.1'
 gem 'apollo_upload_server', '2.0.1'
 
 # Authorization
